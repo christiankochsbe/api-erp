@@ -58,8 +58,6 @@ paths:
           description: The App was successfully registered.
         '400':
           description: Invalid request. One or more of the parameters are incorrect.
-        '401':
-          description: Unauthorized. The access token is invalid or expired.
         '500':
           description: An error occurred while processing the request.
   /channelsForUser/{user_pseudonym}/{app_id}:
@@ -141,8 +139,6 @@ paths:
                       type: string
         '400':
           description: Invalid request. One or more of the parameters are incorrect.
-        '401':
-          description: Unauthorized. The access token is invalid or expired.
         '500':
           description: An error occurred while processing the request.
   /notify:
@@ -172,8 +168,6 @@ paths:
           description: The notification was successfully sent.
         '400':
           description: Invalid request. One or more of the parameters are incorrect.
-        '401':
-          description: Unauthorized. The access token is invalid or expired.
         '500':
           description: An error occurred while processing the request.
  
